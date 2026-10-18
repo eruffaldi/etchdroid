@@ -93,7 +93,7 @@
     <string name="microsoft_windows_isos_any_version">ISO של Windows מבית Microsoft (כל גרסה שהיא)</string>
     <string name="apple_dmg_disk_images">דמויות כוננים של Apple מסוג DMG</string>
     <string name="other_modern_gnu_linux_and_bsd_distributions_live_isos">ISO להמחשה של הפצות גנו/לינוקס או BSD מודרניות</string>
-    <string name="raspberry_pi_sd_card_images_unzip_first">דמויות כרטיס SD של Raspberry Pi (חובה לחלץ תחילה!)</string>
+    <string name="raspberry_pi_sd_card_images">דמויות כרטיס SD של Raspberry Pi</string>
     <string name="any_other_image_that_works_with_balena_etcher_or_dd">כל דמות אחרת שעובדת עם Balena Etcher או dd</string>
     <string name="older_gnu_linux_distributions_isos_2010">ISO של הפצות גנו/לינוקס ישנות יותר (טרום 2012)</string>
     <string name="support_for_dmg_images_was_removed">התמיכה בדמויות DMG של Apple הוסרה ב־EtchDroid 2.0. אפשר להוריד גרסאות ישנות יותר מ־%1$s.</string>

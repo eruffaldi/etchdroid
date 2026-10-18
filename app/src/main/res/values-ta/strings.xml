@@ -71,7 +71,7 @@
     <string name="usb_hard_drives_ssds_some_might_work" comment="Device type">யூ.எச்.பி ஆர்ட் டிரைவ்கள் / எச்.எச்.டி.எச் (சில வேலை செய்யலாம்)</string>
     <string name="arch_linux_ubuntu_debian_fedora_pop_os_linux_mint_freebsd_etc" comment="Image type">ஆர்ச் லினக்ச், உபுண்டு, டெபியன், ஃபெடோரா, பாப்! _ஓஎச், லினக்ச் புதினா, ஃப்ரீ.பி.எச்.டி போன்றவை.</string>
     <string name="other_modern_gnu_linux_and_bsd_distributions_live_isos" comment="Image type">பிற நவீன குனு/லினக்ச் மற்றும் பி.எச்.டி விநியோகங்களின் நேரடி ஐ.எச்.ஓ.எச்</string>
-    <string name="raspberry_pi_sd_card_images_unzip_first" comment="Image type">ராச்பெர்ரி பை எச்டி அட்டை படங்கள் (முதலில் unzip!)</string>
+    <string name="raspberry_pi_sd_card_images" comment="Image type">ராச்பெர்ரி பை எச்டி அட்டை படங்கள்</string>
     <string name="microsoft_windows_isos_any_version" comment="Image type">மைக்ரோசாப்ட் சாளரங்கள் ஐஎச்ஓஎச் (எந்த பதிப்பும்)</string>
     <string name="apple_dmg_disk_images" comment="Image type">ஆப்பிள் டி.எம்.சி வட்டு படங்கள்</string>
     <string name="any_other_image_that_works_with_balena_etcher_or_dd" comment="Image type">பலேனா எட்சர் அல்லது டிடி உடன் வேலை செய்யும் எந்தொரு படம்</string>

@@ -51,7 +51,7 @@
     <string name="microsoft_windows_isos_any_version" comment="Image type">Microsoft Windows ISO:t (kaikki versiot)</string>
     <string name="apple_dmg_disk_images" comment="Image type">Apple DMG levykuvat</string>
     <string name="arch_linux_ubuntu_debian_fedora_pop_os_linux_mint_freebsd_etc" comment="Image type">Arch Linux, Ubuntu, Debian, Fedora, pop!_OS, Linux Mint, FreeBSD jne.</string>
-    <string name="raspberry_pi_sd_card_images_unzip_first" comment="Image type">Raspberry Pi SD-kortti levykuvat (pura ensin!)</string>
+    <string name="raspberry_pi_sd_card_images" comment="Image type">Raspberry Pi SD-kortti levykuvat</string>
     <string name="any_other_image_that_works_with_balena_etcher_or_dd" comment="Image type">Kaikki muut levykuvat, jotka toimivat Balena Etcherin tai dd:n kanssa</string>
     <string name="older_gnu_linux_distributions_isos_2010" comment="Image type">Vanhempien GNU/Linux jakeluitten ISO:t (&lt; 2010)</string>
     <string name="website" comment="Displayed in the about page links; keep it very short!">Nettisivu</string>

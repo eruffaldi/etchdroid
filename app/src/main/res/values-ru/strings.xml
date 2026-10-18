@@ -58,7 +58,7 @@
     <string name="microsoft_windows_isos_any_version">ISO-образы Microsoft Windows (любой версии)</string>
     <string name="apple_dmg_disk_images">Образы дисков Apple DMG</string>
     <string name="other_modern_gnu_linux_and_bsd_distributions_live_isos">Live ISO-образы других современных дистрибутивов GNU/Linux и BSD</string>
-    <string name="raspberry_pi_sd_card_images_unzip_first">Образы SD-карт Raspberry Pi (сначала разархивируйте!)</string>
+    <string name="raspberry_pi_sd_card_images">Образы SD-карт Raspberry Pi</string>
     <string name="support_for_dmg_images_was_removed">Поддержка образов DMG была удалена в EtchDroid 2.0. Старые версии можно загрузить с %1$s.</string>
     <string name="developed_by">Разработана %1$s и другими %2$s.\nИсходный код доступен на %3$s.\nПод лицензией GNU GPLv3.</string>
     <string name="contributors">участниками</string>

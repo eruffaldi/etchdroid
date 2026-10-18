@@ -1007,7 +1007,7 @@ fun WhatCanIWriteBottomSheet(onDismissRequest: () -> Unit, darkTheme: Boolean = 
             }
             item {
                 ItemSupportEntry(
-                    description = stringResource(R.string.raspberry_pi_sd_card_images_unzip_first),
+                    description = stringResource(R.string.raspberry_pi_sd_card_images),
                     SupportStatus.SUPPORTED, darkTheme
                 )
             }

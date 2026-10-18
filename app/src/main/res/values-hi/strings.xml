@@ -63,7 +63,7 @@
     <string name="apple_dmg_disk_images" comment="Image type">Apple DMG डिस्क इमेज</string>
     <string name="arch_linux_ubuntu_debian_fedora_pop_os_linux_mint_freebsd_etc" comment="Image type">Arch Linux, Ubuntu, Debian, Fedora, pop!_OS, Linux Mint, FreeBSD वगैरह।</string>
     <string name="other_modern_gnu_linux_and_bsd_distributions_live_isos" comment="Image type">अन्य मॉडर्न GNU/Linux और BSD डिस्ट्रिब्यूशन की लाइव ISO</string>
-    <string name="raspberry_pi_sd_card_images_unzip_first" comment="Image type">Raspberry Pi SD कार्ड इमेज (पहले अनज़िप करें!)</string>
+    <string name="raspberry_pi_sd_card_images" comment="Image type">Raspberry Pi SD कार्ड इमेज</string>
     <string name="any_other_image_that_works_with_balena_etcher_or_dd" comment="Image type">कोई भी अन्य इमेज जो Balena Etcher या dd के साथ काम करे</string>
     <string name="older_gnu_linux_distributions_isos_2010" comment="Image type">पुराने GNU/Linux डिस्ट्रिब्यूशन की ISO (2010 से पहले की)</string>
     <string name="support_for_dmg_images_was_removed" comment="At the end of the supported devices and images page we state that DMGs are no longer supported; the parameter is replaced with the word &quot;GitHub&quot;">EtchDroid 2.0 में DMG इमेज का सपोर्ट हटा दिया गया है। पुराने वर्शन %1$s से डाउनलोड किए जा सकते हैं।</string>

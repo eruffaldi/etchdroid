@@ -54,7 +54,7 @@
     <string name="a_regular_windows_iso_won_t_work">Um ISO normal do Windows não funcionará com EtchDroid, a menos que tenha sido especificamente preparado para uso com EtchDroid, Etcher ou dd.</string>
     <string name="star_on_github">Dar estrela no GitHub</string>
     <string name="usb_device_reconnected_resuming">Dispositivo USB reconectado, retomando</string>
-    <string name="raspberry_pi_sd_card_images_unzip_first">Imagens de Raspberry Pi de cartão SD (descompacte primeiro!)</string>
+    <string name="raspberry_pi_sd_card_images">Imagens de Raspberry Pi de cartão SD</string>
     <string name="the_usb_device_content_does_not_match_the_image">O conteúdo do dispositivo USB não corresponde à imagem</string>
     <string name="disk_image">Imagem de disco</string>
     <string name="missing_permission_to_access_the_usb_device">Falta de permissão para acessar o dispositivo USB</string>

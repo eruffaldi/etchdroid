@@ -99,7 +99,7 @@
     <string name="microsoft_windows_isos_any_version">Microsoft Windows ISO (istənilən versiya)</string>
     <string name="supported">Dəstəklənir</string>
     <string name="memory_cards_using_a_usb_adapter">Yaddaş kartları, USB çeviricidən istifadə edərək</string>
-    <string name="raspberry_pi_sd_card_images_unzip_first">Raspberry Pi SD kart imajları (əvvəlcə açın!)</string>
+    <string name="raspberry_pi_sd_card_images">Raspberry Pi SD kart imajları</string>
     <string name="developed_by">%1$s və digər %2$s tərəfindən hazırlanmışdır.
 \nMənbə kodu %3$s-də mövcuddur.
 \nGNU GPLv3 lisenziyası ilə lisenziyalaşdırılıb.</string>

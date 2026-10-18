@@ -68,7 +68,7 @@
     <string name="arch_linux_ubuntu_debian_fedora_pop_os_linux_mint_freebsd_etc">Arch Linux, Ubuntu, Debian, Fedora, pop!_OS, Linux Mint, FreeBSD vb.</string>
     <string name="usb_docks_and_hubs_might_have_power_issues">USB yerleştirme ve genişletme birimleri (güç sorunları olabilir)</string>
     <string name="other_modern_gnu_linux_and_bsd_distributions_live_isos">Diğer güncel GNU/Linux ve BSD dağıtımlarının canlı ISO dosyaları</string>
-    <string name="raspberry_pi_sd_card_images_unzip_first">Raspberry Pi SD kart kalıpları (önce sıkıştırılmış dosyayı ayıklayın!)</string>
+    <string name="raspberry_pi_sd_card_images">Raspberry Pi SD kart kalıpları</string>
     <string name="any_other_image_that_works_with_balena_etcher_or_dd">Balena Etcher veya dd ile çalışan diğer tüm kalıplar</string>
     <string name="older_gnu_linux_distributions_isos_2010">Daha eski GNU/Linux dağıtımlarının ISO dosyaları (2010 öncesi)</string>
     <string name="support_for_dmg_images_was_removed">EtchDroid 2.0 sürümünde DMG kalıpları için destek kaldırıldı. Daha eski sürümler %1$s üzerinden indirilebilir.</string>

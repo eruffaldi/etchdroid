@@ -65,7 +65,7 @@
     <string name="microsoft_windows_isos_any_version" comment="Image type">Imagini Microsoft Windows (oricare versiune)</string>
     <string name="apple_dmg_disk_images" comment="Image type">Imagini Apple DMG</string>
     <string name="arch_linux_ubuntu_debian_fedora_pop_os_linux_mint_freebsd_etc" comment="Image type">Arch Linux, Ubuntu, Debian, Fedora, pop!_OS, Linux Mint, FreeBSD sau altele.</string>
-    <string name="raspberry_pi_sd_card_images_unzip_first" comment="Image type">Imagini SD Card Raspberry Pi (dezarhivează mai intâi!)</string>
+    <string name="raspberry_pi_sd_card_images" comment="Image type">Imagini SD Card Raspberry Pi</string>
     <string name="any_other_image_that_works_with_balena_etcher_or_dd" comment="Image type">Orice altă imagine ce funcționează cu Balena Etcher sau dd</string>
     <string name="other_modern_gnu_linux_and_bsd_distributions_live_isos" comment="Image type">ISO-urile live ale altor distribuții GNU/Linux și BSD moderne</string>
     <string name="older_gnu_linux_distributions_isos_2010" comment="Image type">ISO-uri mai vechi ale distribuțiilor GNU/Linux (&lt; 2010)</string>

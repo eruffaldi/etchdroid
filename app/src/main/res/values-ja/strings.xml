@@ -86,7 +86,7 @@
     <string name="usb_flash_drives">USBフラッシュドライブ</string>
     <string name="other_modern_gnu_linux_and_bsd_distributions_live_isos">その他の最近の GNU/Linux および BSD ディストリビューションのライブ ISO</string>
     <string name="apple_dmg_disk_images">Apple DMG ディスク イメージ</string>
-    <string name="raspberry_pi_sd_card_images_unzip_first">Raspberry Pi SD カード イメージ (先に解凍してください!)</string>
+    <string name="raspberry_pi_sd_card_images">Raspberry Pi SD カード イメージ</string>
     <string name="support_for_dmg_images_was_removed">DMG イメージへの対応は EtchDroid 2.0 で削除されました。以前のバージョンは %1$s からダウンロードできます。</string>
     <string name="would_you_like_to_be_notified">完了時に通知を受け取りますか?進行状況の更新のみで、スパムや広告はありません。</string>
     <string name="copying">コピー中</string>

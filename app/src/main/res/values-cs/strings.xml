@@ -82,7 +82,7 @@
     <string name="supported_devices_and_images" comment="Title of the page that lists all the supported devices and images">Podporovaná zařízení a obrazy</string>
     <string name="devices" comment="Title of the section that lists all the supported device types">Zařízení</string>
     <string name="usb_flash_drives" comment="Device type">USB flash disky</string>
-    <string name="raspberry_pi_sd_card_images_unzip_first" comment="Image type">Obrazy karty SD Raspberry Pi (nejprve rozbalte!)</string>
+    <string name="raspberry_pi_sd_card_images" comment="Image type">Obrazy karty SD Raspberry Pi</string>
     <string name="please_avoid_using_your_device" comment="Subtitle of the progress page while an image is being written">Nepoužívejte prosím své zařízení</string>
     <string name="would_you_like_to_be_notified" comment="Displayed in a card in the progress page; keep it concise, there's not much space">Chcete být upozorněni, až bude hotovo? Pouze aktualizace průběhu, žádný spam ani reklamy.</string>
     <string name="sure" comment="Button to accept receiving notifications">Jistě</string>

@@ -84,7 +84,7 @@
     <string name="microsoft_windows_isos_any_version">File ISO của Microsoft Windows (bất kỳ phiên bản nào)</string>
     <string name="apple_dmg_disk_images">File ảnh đĩa DMG của Apple</string>
     <string name="other_modern_gnu_linux_and_bsd_distributions_live_isos">Các bản phân phối GNU/Linux và BSD mới</string>
-    <string name="raspberry_pi_sd_card_images_unzip_first">File ảnh thẻ SD cho Raspberry Pi (yêu cầu giải nén trước!)</string>
+    <string name="raspberry_pi_sd_card_images">File ảnh thẻ SD cho Raspberry Pi</string>
     <string name="any_other_image_that_works_with_balena_etcher_or_dd">Bất kỳ file ảnh nào dùng cho Balena Etcher hoặc dd</string>
     <string name="older_gnu_linux_distributions_isos_2010">File ISO của bản phân phối GNU/Linux cũ (&lt;2010)</string>
     <string name="developed_by">Phát triển bới %1$s và %2$s.

@@ -54,7 +54,7 @@
     <string name="apple_dmg_disk_images">Apple dmg-schijfkopiëen</string>
     <string name="arch_linux_ubuntu_debian_fedora_pop_os_linux_mint_freebsd_etc">Arch Linux, Ubuntu, Debian, Fedora, pop!_OS, Linux Mint, FreeBSD, etc.</string>
     <string name="other_modern_gnu_linux_and_bsd_distributions_live_isos">Overige moderne GNU/Linux- en BSD-distributies</string>
-    <string name="raspberry_pi_sd_card_images_unzip_first">Raspberry Pi-sd-kaart-schijfkopiëen (eerst uitpakken!)</string>
+    <string name="raspberry_pi_sd_card_images">Raspberry Pi-sd-kaart-schijfkopiëen</string>
     <string name="any_other_image_that_works_with_balena_etcher_or_dd">Overige schijfkopiëen die met Balena Etcher of dd werken</string>
     <string name="older_gnu_linux_distributions_isos_2010">Oudere GNU/Linuxdistributies (&lt; 2010)</string>
     <string name="contributors">bijdragers</string>

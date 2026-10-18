@@ -47,7 +47,6 @@ import eu.depau.etchdroid.utils.ktexts.broadcastLocally
 import eu.depau.etchdroid.utils.ktexts.broadcastLocallySync
 import eu.depau.etchdroid.utils.ktexts.getDisplayName
 import eu.depau.etchdroid.utils.ktexts.getFileName
-import eu.depau.etchdroid.utils.ktexts.getFileSize
 import eu.depau.etchdroid.utils.ktexts.safeParcelableExtra
 import eu.depau.etchdroid.utils.ktexts.startForegroundSpecialUse
 import eu.depau.etchdroid.utils.ktexts.threadIdCompat
@@ -62,6 +61,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withTimeoutOrNull
 import me.jahnen.libaums.core.driver.BlockDeviceDriver
 import java.io.BufferedInputStream
+import java.io.IOException
 import java.io.InputStream
 import java.util.Random
 import java.util.concurrent.atomic.AtomicBoolean
@@ -368,6 +368,7 @@ class WorkerService : LifecycleService() {
             var massStorageDev by massStorageDevDelegate
             var blockDev by lateInit<BlockDeviceDriver>()
             var rawSourceStream: InputStream? = null
+            var pendingImage: OpenedImage? = null
             var currentOffset = offset
             var imageSize = 0L
             var jobException: EtchDroidException? = null
@@ -409,7 +410,12 @@ class WorkerService : LifecycleService() {
                     throw UsbDriveTooLargeException()
                 }
 
-                imageSize = mSourceUri.getFileSize(this@WorkerService)
+                try {
+                    pendingImage = XzImageSource.open(this@WorkerService, mSourceUri)
+                    imageSize = pendingImage!!.size
+                } catch (e: Exception) {
+                    throw OpenFileException("Failed to open image file", e)
+                }
 
                 if (devSize < imageSize) {
                     Telemetry.captureMessage(
@@ -434,12 +440,8 @@ class WorkerService : LifecycleService() {
 
                 // Write image
                 if (!verifyOnly) {
-                    try {
-                        rawSourceStream = contentResolver.openInputStream(mSourceUri)!!
-                    } catch (e: Exception) {
-                        Telemetry.warning("Failed to open image file: ${e.message}")
-                        throw OpenFileException("Failed to open image file", e)
-                    }
+                    rawSourceStream = pendingImage!!.stream
+                    pendingImage = null
 
                     Telemetry.info("Writing image to USB drive", "worker")
 
@@ -459,12 +461,18 @@ class WorkerService : LifecycleService() {
                 }
 
                 // Verify written image
-                try {
-                    rawSourceStream = contentResolver.openInputStream(mSourceUri)!!
+                val verificationImage = pendingImage ?: try {
+                    XzImageSource.open(this@WorkerService, mSourceUri)
                 } catch (e: Exception) {
                     Log.e(TAG, "Failed to open image file", e)
                     throw OpenFileException("Failed to open image file", e)
                 }
+                pendingImage = null
+                if (verificationImage.size != imageSize) {
+                    verificationImage.stream.close()
+                    throw IOException("Image size changed while writing")
+                }
+                rawSourceStream = verificationImage.stream
 
                 // Always verify the whole image, not just the part that was written
                 currentOffset = 0
@@ -504,6 +512,13 @@ class WorkerService : LifecycleService() {
                 if (rawSourceStream != null) {
                     try {
                         rawSourceStream.close()
+                    } catch (e: Exception) {
+                        Telemetry.captureException("Failed to close image file", e)
+                    }
+                }
+                if (pendingImage != null) {
+                    try {
+                        pendingImage!!.stream.close()
                     } catch (e: Exception) {
                         Telemetry.captureException("Failed to close image file", e)
                     }
@@ -666,8 +681,9 @@ object WorkerServiceFlowImpl {
                     grabWakeLock()
                     watchdog.bump()
 
-                    val read = src.read(buffer)
-                    if (read == -1) break
+                    val requestedBytes = minOf(buffer.size.toLong(), imageSize - currentOffset).toInt()
+                    val read = src.read(buffer, 0, requestedBytes)
+                    if (read == -1) throw IOException("Image ended before its expected size")
 
                     watchdog.bump()
                     try {
@@ -683,6 +699,9 @@ object WorkerServiceFlowImpl {
                     notifyCurrentOffset(currentOffset)
 
                     sendProgressUpdate(read, currentOffset, imageSize, false)
+                }
+                if (src.read() != -1) {
+                    throw IOException("Image is larger than its expected size")
                 }
                 watchdog.bump()
                 try {
@@ -738,11 +757,12 @@ object WorkerServiceFlowImpl {
                 val fileBuffer = ByteArray(1024)
                 val deviceBuffer = ByteArray(1024)
 
-                while (!isVerificationCanceled()) {
+                while (!isVerificationCanceled() && currentOffset < imageSize) {
                     grabWakeLock()
                     watchdog.bump()
 
-                    val read = src.read(fileBuffer)
+                    val requestedBytes = minOf(fileBuffer.size.toLong(), imageSize - currentOffset).toInt()
+                    val read = src.read(fileBuffer, 0, requestedBytes)
                     if (read == -1) break
 
                     watchdog.bump()
@@ -778,6 +798,11 @@ object WorkerServiceFlowImpl {
                     notifyCurrentOffset(currentOffset)
 
                     sendProgressUpdate(read, currentOffset, imageSize, true)
+                }
+                if (!isVerificationCanceled() &&
+                    (currentOffset != imageSize || src.read() != -1)
+                ) {
+                    throw VerificationFailedException()
                 }
             }
         } finally {

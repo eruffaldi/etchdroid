@@ -42,7 +42,7 @@
     <string name="apple_dmg_disk_images">Apple DMG skyf beelde</string>
     <string name="arch_linux_ubuntu_debian_fedora_pop_os_linux_mint_freebsd_etc">Arch Linux, Ubuntu, Debian, Fedora, pop!_OS, Linux Mint, FreeBSD ens.</string>
     <string name="other_modern_gnu_linux_and_bsd_distributions_live_isos">Ander moderne GNU/Linux and BSD distribusies se lewe ISOs</string>
-    <string name="raspberry_pi_sd_card_images_unzip_first">Raspberry Pi SD kaartjie beelde (uitpak eerste)</string>
+    <string name="raspberry_pi_sd_card_images">Raspberry Pi SD kaartjie beelde</string>
     <string name="any_other_image_that_works_with_balena_etcher_or_dd">Enige ander beeld dat werk met Balena Etcher of dd</string>
     <string name="older_gnu_linux_distributions_isos_2010">Ouer GNU/Linux distribusies se ISOs (&lt;2010)</string>
     <string name="notif_channel_job_result_name">Werksuitkoms</string>

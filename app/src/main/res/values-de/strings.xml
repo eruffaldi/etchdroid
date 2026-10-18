@@ -69,7 +69,7 @@
     <string name="any_thunderbolt_only_device">Jedes reine Thunderbolt-Gerät</string>
     <string name="very_large_drives_2tb">Sehr große Laufwerke (≥ 2 TB)</string>
     <string name="other_modern_gnu_linux_and_bsd_distributions_live_isos">Live-ISOs anderer moderner GNU/Linux- und BSD-Distributionen</string>
-    <string name="raspberry_pi_sd_card_images_unzip_first">Raspberry Pi SD-Karten-Abbilder (zuerst entpacken!)</string>
+    <string name="raspberry_pi_sd_card_images">Raspberry Pi SD-Karten-Abbilder</string>
     <string name="any_other_image_that_works_with_balena_etcher_or_dd">Jedes andere Abbild, das mit Balena Etcher oder dd funktioniert</string>
     <string name="older_gnu_linux_distributions_isos_2010">ISOs älterer GNU/Linux-Distributionen (&lt; 2010)</string>
     <string name="support_for_dmg_images_was_removed">Die Unterstützung für DMG-Abbilder wurde in EtchDroid 2.0 entfernt. Ältere Versionen können von %1$s heruntergeladen werden.</string>

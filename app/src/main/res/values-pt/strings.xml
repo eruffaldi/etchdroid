@@ -69,7 +69,7 @@
     <string name="microsoft_windows_isos_any_version">ISOs do Microsoft Windows (qualquer versão)</string>
     <string name="apple_dmg_disk_images">Imagens de disco Apple DMG</string>
     <string name="other_modern_gnu_linux_and_bsd_distributions_live_isos">Outras live ISOs de outras distribuições GNU/Linux e BSD modernas</string>
-    <string name="raspberry_pi_sd_card_images_unzip_first">Imagens de Raspberry Pi de cartão SD (descompacte primeiro!)</string>
+    <string name="raspberry_pi_sd_card_images">Imagens de Raspberry Pi de cartão SD</string>
     <string name="any_other_image_that_works_with_balena_etcher_or_dd">Qualquer outra imagem que funcione com o Balena Etcher ou dd</string>
     <string name="older_gnu_linux_distributions_isos_2010">ISOs de distribuições GNU/Linux mais antigas (&lt; 2010)</string>
     <string name="support_for_dmg_images_was_removed">O suporte para imagens DMG foi removido no EtchDroid 2.0. Versões mais antigas podem ser descarregadas de %1$s.</string>

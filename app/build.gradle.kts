@@ -131,6 +131,7 @@ dependencies {
     implementation(libs.material3)
     implementation(libs.material3.adaptive)
     implementation(platform(libs.compose.bom))
+    implementation(libs.xz)
 
     "gplayImplementation"(libs.gplay.review)
     "gplayImplementation"(libs.gplay.review.ktx)

@@ -58,7 +58,7 @@
     <string name="devices">Perangkat</string>
     <string name="lay_your_device_flat">Letakkan perangkat Anda di atas meja dan jangan menyentuhnya</string>
     <string name="optical_disk_drives">Drive disk optik</string>
-    <string name="raspberry_pi_sd_card_images_unzip_first">Image kartu SD Raspberry Pi (buka zip terlebih dahulu!)</string>
+    <string name="raspberry_pi_sd_card_images">Image kartu SD Raspberry Pi</string>
     <string name="support_for_dmg_images_was_removed">Dukungan untuk Image DMG telah dihapus di EtchDroid 2.0. Versi yang lebih lama dapat diunduh dari %1$s.</string>
     <string name="contributors">kontributor</string>
     <string name="developed_by">Dikembangkan oleh %1$s dan %2$s lainnya. 

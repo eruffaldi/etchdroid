@@ -66,7 +66,7 @@
     <string name="apple_dmg_disk_images" comment="Image type">Imagines de discu Apple DMG</string>
     <string name="arch_linux_ubuntu_debian_fedora_pop_os_linux_mint_freebsd_etc" comment="Image type">Arch Linux, Ubuntu, Debian, Fedora, pop!_OS, Linux Mint, FreeBSD ecc.</string>
     <string name="other_modern_gnu_linux_and_bsd_distributions_live_isos" comment="Image type">ISOs de ateras distributziones de GNU/Linux e BSD modernas</string>
-    <string name="raspberry_pi_sd_card_images_unzip_first" comment="Image type">Imagines SD card po Raspberry Pi (estraeddas de su zip!)</string>
+    <string name="raspberry_pi_sd_card_images" comment="Image type">Imagines SD card po Raspberry Pi</string>
     <string name="any_other_image_that_works_with_balena_etcher_or_dd" comment="Image type">Totas is ateras imagines chi funtzionant cun Balena Etcher o dd</string>
     <string name="older_gnu_linux_distributions_isos_2010" comment="Image type">ISOs de distributziones GNU/Linux becias (&lt; 2010)</string>
     <string name="support_for_dmg_images_was_removed" comment="At the end of the supported devices and images page we state that DMGs are no longer supported; the parameter is replaced with the word &quot;GitHub&quot;">Su suportu po is imaginis DMG est stetiu pesau cumentzandu cun EtchDroid 2.0. Versiones prus becias podent essere iscarrigadas de %1$s.</string>

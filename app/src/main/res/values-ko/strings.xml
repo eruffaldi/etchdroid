@@ -75,7 +75,7 @@
     <string name="disk_images">디스크 이미지</string>
     <string name="other_modern_gnu_linux_and_bsd_distributions_live_isos">기타 최신 GNU/Linux 및 BSD 배포판의 라이브 ISO</string>
     <string name="apple_dmg_disk_images">Apple DMG 디스크 이미지</string>
-    <string name="raspberry_pi_sd_card_images_unzip_first">Raspberry Pi SD 카드 이미지 (먼저 압축 해제하세요!)</string>
+    <string name="raspberry_pi_sd_card_images">Raspberry Pi SD 카드 이미지</string>
     <string name="would_you_like_to_be_notified">완료되면 알림을 받으시겠어요? 진행도만 표시되며 스팸이나 광고는 없어요.</string>
     <string name="no_thanks">아니요</string>
     <string name="verifying">확인 중</string>

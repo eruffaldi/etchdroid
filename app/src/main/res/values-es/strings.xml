@@ -28,7 +28,7 @@
     <string name="supported_devices_and_images">Dispositivos e imágenes compatibles</string>
     <string name="devices">Dispositivos</string>
     <string name="usb_flash_drives">Unidades flash USB</string>
-    <string name="raspberry_pi_sd_card_images_unzip_first">Imágenes de la tarjeta SD de Raspberry Pi (¡descomprimir primero!)</string>
+    <string name="raspberry_pi_sd_card_images">Imágenes de la tarjeta SD de Raspberry Pi</string>
     <string name="arch_linux_ubuntu_debian_fedora_pop_os_linux_mint_freebsd_etc">Arch Linux, Ubuntu, Debian, Fedora, pop!_OS, Linux Mint, FreeBSD etc.</string>
     <string name="please_avoid_using_your_device">Por favor, evita utilizar tu dispositivo</string>
     <string name="sure">Por supuesto</string>

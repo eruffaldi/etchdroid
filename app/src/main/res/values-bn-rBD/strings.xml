@@ -67,7 +67,7 @@
     <string name="apple_dmg_disk_images" comment="Image type">অ্যাপল ডিএমজি ডিস্ক ইমেজ</string>
     <string name="arch_linux_ubuntu_debian_fedora_pop_os_linux_mint_freebsd_etc" comment="Image type">আর্চ লিনাক্স, উবুন্টু, ডেবিয়ান, ফেডোরা, পপ!_ওএস, লিনাক্স মিন্ট, ফ্রিবিএসডি ইত্যাদি।</string>
     <string name="other_modern_gnu_linux_and_bsd_distributions_live_isos" comment="Image type">অন্যান্য আধুনিক GNU/Linux এবং BSD ডিস্ট্রিবিউশনগুলির লাইভ আইএসও</string>
-    <string name="raspberry_pi_sd_card_images_unzip_first" comment="Image type">রাস্পবেরি পাই এসডি কার্ড ইমেজ (প্রথমে আনজিপ করুন!)</string>
+    <string name="raspberry_pi_sd_card_images" comment="Image type">রাস্পবেরি পাই এসডি কার্ড ইমেজ</string>
     <string name="any_other_image_that_works_with_balena_etcher_or_dd" comment="Image type">যেকোনো অন্যান্য ইমেজ যা Balena Etcher বা dd এর সাথে কাজ করে</string>
     <string name="older_gnu_linux_distributions_isos_2010" comment="Image type">পুরানো GNU/Linux ডিস্ট্রিবিউশন আইএসও (&lt; ২০১০)</string>
     <string name="support_for_dmg_images_was_removed" comment="At the end of the supported devices and images page we state that DMGs are no longer supported; the parameter is replaced with the word &quot;GitHub&quot;">EtchDroid 2.0 এ DMG ইমেজের জন্য সমর্থন সরানো হয়েছে। পুরানো সংস্করণ %1$s থেকে ডাউনলোড করা যেতে পারে।</string>

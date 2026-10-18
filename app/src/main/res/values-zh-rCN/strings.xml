@@ -63,7 +63,7 @@
     <string name="apple_dmg_disk_images">Apple DMG 磁盘镜像</string>
     <string name="arch_linux_ubuntu_debian_fedora_pop_os_linux_mint_freebsd_etc">Arch Linux、Ubuntu、Debian、Fedora、pop!_OS、Linux Mint、FreeBSD等。</string>
     <string name="other_modern_gnu_linux_and_bsd_distributions_live_isos">其他现代GNU/Linux和BSD发行版的即时ISO文件</string>
-    <string name="raspberry_pi_sd_card_images_unzip_first">树莓派 SD 卡镜像（请先解压缩！）</string>
+    <string name="raspberry_pi_sd_card_images">树莓派 SD 卡镜像</string>
     <string name="older_gnu_linux_distributions_isos_2010">旧的 GNU/Linux 发行版 ISO镜像（&lt; 2010年）</string>
     <string name="any_other_image_that_works_with_balena_etcher_or_dd">任何其他与Balena Etcher或dd兼容的映像</string>
     <string name="support_for_dmg_images_was_removed">EtchDroid 2.0 取消了对 DMG 镜像的支持。旧版本可从 %1$s 下载。</string>

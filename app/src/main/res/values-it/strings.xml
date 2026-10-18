@@ -48,7 +48,7 @@
     <string name="microsoft_windows_isos_any_version">ISO di Microsoft Windows (qualsiasi versione)</string>
     <string name="arch_linux_ubuntu_debian_fedora_pop_os_linux_mint_freebsd_etc">Arch Linux, Ubuntu, Debian, Fedora, pop!_OS, Linux Mint, FreeBSD ecc.</string>
     <string name="other_modern_gnu_linux_and_bsd_distributions_live_isos">ISO di altre distribuzioni di GNU/Linux e BSD moderne</string>
-    <string name="raspberry_pi_sd_card_images_unzip_first">Immagini SD card per Raspberry Pi (estraile dal file zip!)</string>
+    <string name="raspberry_pi_sd_card_images">Immagini SD card per Raspberry Pi</string>
     <string name="older_gnu_linux_distributions_isos_2010">ISO di distribuzioni GNU/Linux vecchie (&lt; 2010)</string>
     <string name="contributors">volontariз</string>
     <string name="website">Sito web</string>

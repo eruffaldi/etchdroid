@@ -45,7 +45,7 @@
     <string name="any_thunderbolt_only_device">Tout appareil fonctionnant uniquement avec Thunderbolt</string>
     <string name="very_large_drives_2tb">Lecteurs très volumineux (≥ 2 TB)</string>
     <string name="disk_images">Images disque</string>
-    <string name="raspberry_pi_sd_card_images_unzip_first">Images de la carte SD du Raspberry Pi (décompressez d\'abord !)</string>
+    <string name="raspberry_pi_sd_card_images">Images de la carte SD du Raspberry Pi</string>
     <string name="any_other_image_that_works_with_balena_etcher_or_dd">Toute autre image qui fonctionne avec Balena Etcher ou dd</string>
     <string name="older_gnu_linux_distributions_isos_2010">Anciennes ISO de distributions GNU/Linux (&lt; 2010)</string>
     <string name="contributors">contributeurs</string>

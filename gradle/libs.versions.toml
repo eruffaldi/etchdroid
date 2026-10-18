@@ -24,6 +24,7 @@ robolectric = "4.16.1"
 robolectric-junit5 = "0.9.0"
 test-core = "1.7.0"
 test-runner = "1.7.0"
+xz = "1.10"
 
 # Note for F-Droid developers: Sentry and Firebase are not enabled for F-Droid builds
 sentry-lib = "8.46.0"
@@ -78,4 +79,5 @@ mockito-core = { group = "org.mockito", name = "mockito-core", version.ref = "mo
 robolectric = { group = "org.robolectric", name = "robolectric", version.ref = "robolectric" }
 test-core = { group = "androidx.test", name = "core", version.ref = "test-core" }
 test-runner = { group = "androidx.test", name = "runner", version.ref = "test-runner" }
+xz = { group = "org.tukaani", name = "xz", version.ref = "xz" }
 firebase-crashlytics = { group = "com.google.firebase", name = "firebase-crashlytics", version.ref = "firebase-crashlytics" }
